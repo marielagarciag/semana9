@@ -1,0 +1,130 @@
+.wrapper {
+	width: 75%;
+	margin: auto;
+}
+
+.wrapper1, 
+.wrapper2 {
+	display: flex;
+}
+
+.wrapper div, 
+.wrapper1 div {
+	flex: 1;
+	text-align: center;
+	margin: 10px;
+}
+
+.wrapper div img, 
+.wrapper1 div img {
+	width: 50%;
+	margin: 10px;
+}
+
+.aboutimg {
+	border-radius: 80%;
+}
+
+.card {
+	background-color: #C76249;
+}
+
+img {
+	width: 100%;
+}
+
+h1 { 
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 4em;
+	color: white;
+}
+
+.top-left {
+	position: absolute;
+    top: 8px;
+    left: 170px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 170px;
+}
+
+a:link {
+	color: white; 
+	font-size: 1.25em;
+	background-color: transparent; 
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 13px;
+}
+
+a:hover {
+	background-color: transparent;
+	text-decoration: none;
+	color: #E6672C;
+}
+
+a:visited {
+	color: none;
+}
+
+nav, p, footer, h3, h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.25em;
+}
+
+.h2index {
+	font-weight: bold;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+p {
+	font-size: 1em;
+	line-height: 30px;
+}
+
+p, h3 {
+	text-align: left;
+	margin: 10px;
+}
+
+section { 
+    padding: 5% 0;
+   text-align: right;
+   vertical-align: middle;
+   font-size: 17px;
+   width: 90%;
+}
+
+.pindex, .h2index {
+	color: black;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+footer {
+	background-color: #86A9BF;
+	color: white;
+}
